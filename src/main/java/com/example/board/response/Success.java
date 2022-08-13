@@ -2,6 +2,7 @@ package com.example.board.response;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -10,5 +11,5 @@ import lombok.Getter;
 @AllArgsConstructor
 
 public class Success<T> implements Result{
-    private final T data;
+    private T data;
 }
