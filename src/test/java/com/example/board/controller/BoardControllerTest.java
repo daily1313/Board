@@ -1,4 +1,4 @@
-package com.example.board;
+package com.example.board.controller;
 
 
 import com.example.board.controller.BoardController;

@@ -10,14 +10,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class BoardResponseDto {
     private String titleDto;
-    private String contentDto;
     private String writerDto;
+    private String contentDto;
     public static BoardResponseDto toDto(Board board)
     {
         return new BoardResponseDto(
                 board.getTitle(),
-                board.getContent(),
-                board.getWriter()
+                board.getWriter(),
+                board.getContent()
         );
     }
 }

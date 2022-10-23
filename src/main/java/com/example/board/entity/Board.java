@@ -26,8 +26,7 @@ public class Board {
     @Column(nullable = false)
     private String content;
 
-    public Board(String title, String writer, String content)
-    {
+    public Board(String title, String writer, String content) {
         this.title = title;
         this.writer = writer;
         this.content = content;
