@@ -27,6 +27,10 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.5.2'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.5.2'
+    testCompileOnly 'org.projectlombok:lombok:1.18.20' // 테스트 의존성 추가
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.20' // 테스트 의존성 추가
     // Swagger
     implementation 'io.springfox:springfox-boot-starter:3.0.0'
 }
