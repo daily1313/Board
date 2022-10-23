@@ -8,12 +8,12 @@ CRUD 기능을 이용하여 게시판의 기본적인 기능 구현(글 삭제, 
 <h3>개선한 부분</h3>
 
 <LI>개발한 API를 검증하기 위한 Junit5 단위테스트코드 작성<br>
- ![](../img/r2.png)
+ ![initial](../img/r2.png)
 <LI>Docker를 이용해 개발한 웹 어플리케이션 배포 완료<br>
-![](../img/r3.png)
+![initial](../img/r3.png)
 <LI>클라이언트와의 협업을 위해 예외처리, Response타입 부분 고려<br>
 <LI>Swagger를 사용해 API 문서 자동화<br>
- ![](../img/r1.png)
+ ![initial](../img/r1.png)
     
 <h3>추후 기능 구현할 부분</h3>
 <LI>이미지 처리<br>
