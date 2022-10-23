@@ -1,6 +1,14 @@
 <h1> 게시판 프로젝트 </h1>
 <hr>
 <body>
+<h3>Git Convention</h3>
+
+<LI>feat : 새로운 기능 추가<br>
+<LI>fix : 버그 수정<br>
+<LI>docs : 문서 수정<br>
+<LI>style : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우<br>
+<LI>refactor : 코드 리팩토링<br>
+<LI>chore : 빌드 업무 수정, 패키지 매니저 수정<br>
 
 <h3>기존 기능</h3>
 
