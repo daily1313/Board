@@ -8,13 +8,22 @@ CRUD 기능을 이용하여 게시판의 기본적인 기능 구현(글 삭제, 
 <h3>개선한 부분</h3>
 
 <LI>개발한 API를 검증하기 위한 Junit5 단위테스트코드 작성<br>
- ![initial](../img/r2.png)
+
+<img width="300" alt="r2" src="https://user-images.githubusercontent.com/88074556/197387549-9397fece-f310-440c-b846-8fb58c85d8ae.png">
+
+
+ 
 <LI>Docker를 이용해 개발한 웹 어플리케이션 배포 완료<br>
-![initial](../img/r3.png)
+
+<img width="300" alt="r3" src="https://user-images.githubusercontent.com/88074556/197387567-827d1f40-2fbf-4638-8e5f-c52293ce9145.png">
+
+
 <LI>클라이언트와의 협업을 위해 예외처리, Response타입 부분 고려<br>
 <LI>Swagger를 사용해 API 문서 자동화<br>
- ![initial](../img/r1.png)
-    
+ 
+ 
+ <img width="300" alt="r1" src="https://user-images.githubusercontent.com/88074556/197387581-bdbbdf86-f8e2-4e72-82c9-3c0649fe09f6.png">
+
 <h3>추후 기능 구현할 부분</h3>
 <LI>이미지 처리<br>
 <LI>Security, JWT Token을 이용한 로그인 기능 구현
