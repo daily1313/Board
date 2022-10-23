@@ -3,7 +3,7 @@ package com.example.board.factory;
 import com.example.board.entity.Board;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 @AllArgsConstructor
 @Data
