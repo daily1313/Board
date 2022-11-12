@@ -2,6 +2,7 @@ package com.example.board.service;
 
 
 import com.example.board.entity.Board;
+import com.example.board.entity.User;
 import com.example.board.exception.BoardNotFoundException;
 import com.example.board.repository.BoardRepository;
 import com.example.board.responsedto.BoardEditRequestDto;
@@ -24,7 +25,7 @@ public class BoardService {
 
 
     @Transactional(readOnly = true)
-    public List<BoardResponseDto> getBoards()
+    public List<BoardResponseDto> getBoards(User user)
     {
         List<Board> boards = boardrepository.findAll();
         List<BoardResponseDto> boardResponseDtoList = new ArrayList<>();
@@ -35,14 +36,14 @@ public class BoardService {
     }
 
     @Transactional(readOnly = true)
-    public BoardResponseDto getBoard(Long id)
+    public BoardResponseDto getBoard(Long id, User user)
     {
         Board board = boardrepository.findById(id).orElseThrow(BoardNotFoundException::new);
         return BoardResponseDto.toDto(board);
     }
 
     @Transactional
-    public BoardResponseDto save(BoardRequestDto req)
+    public BoardResponseDto save(BoardRequestDto req, User user)
     {
         Board board = new Board();
         board.setTitle(req.getTitle());
@@ -54,7 +55,7 @@ public class BoardService {
     }
 
     @Transactional
-    public BoardResponseDto editBoard(Long id, BoardEditRequestDto req)
+    public BoardResponseDto editBoard(Long id, BoardEditRequestDto req, User user)
     {
         Board board = boardrepository.findById(id).orElseThrow(BoardNotFoundException::new);
 
@@ -65,7 +66,7 @@ public class BoardService {
     }
 
     @Transactional
-    public void deleteBoard(Long id)
+    public void deleteBoard(Long id, User user)
     {
         Board board = boardrepository.findById(id).orElseThrow(BoardNotFoundException::new);
         boardrepository.delete(board);
