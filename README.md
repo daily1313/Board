@@ -5,6 +5,19 @@
 <h3>기존 기능</h3>
 
 CRUD 기능을 이용하여 게시판의 기본적인 기능 구현(글 삭제, 수정, 등록, 조회)
+
+### Skills
+<LI>Java 11<br>
+<LI>Spring boot 2.7.2<br>
+<LI>Gradle<br>
+<LI>Spring data JPA<br>
+<LI>Spring Web<br>
+<LI>Validation<br>
+<LI>Lombok<br>
+<LI>Mysql<br>
+<LI>Junit5 Test<br>
+<LI>Spring Security<br>
+
 <h3>Git Convention</h3>
 
 <LI>feat : 새로운 기능 추가<br>
@@ -26,8 +39,12 @@ CRUD 기능을 이용하여 게시판의 기본적인 기능 구현(글 삭제, 
 
     
 <h3>추후 기능 구현할 부분</h3>
-<LI>이미지 처리<br>
-<LI>Security, JWT Token을 이용한 로그인 기능 구현
+<LI>Paging 처리<br>
+<LI>메서드명 가독성 고려<br>
+<LI>infra layer 설계<br>
+<LI>Service 추상화<br>
+<LI>Security, JWT Token을 이용한 UserService 설계<br>
+
     
 </body>
 
